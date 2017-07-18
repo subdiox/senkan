@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kayac.lobi.libnakamap.components.ImageLoaderCircleView xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="UNKNOWN_DATA_0x7f070021" lobi:layout_height="UNKNOWN_DATA_0x7f070021" lobi:lobi_frameResourceId="@drawable/lobi_frame_chatgroup" lobi:lobi_loaderId="@id/lobi_chat_list_header_member_icon" />

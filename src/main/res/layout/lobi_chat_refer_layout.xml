@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:background="@drawable/lobi_chat_refer_container" lobi:padding="@dimen/lobi_padding_middle" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+    <FrameLayout lobi:layout_width="UNKNOWN_DATA_0x7f070034" lobi:layout_height="UNKNOWN_DATA_0x7f070034">
+        <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_chat_refer_icon" lobi:layout_width="UNKNOWN_DATA_0x7f070034" lobi:layout_height="UNKNOWN_DATA_0x7f070034" lobi:scaleType="fitXY" lobi:lobi_useMemoryCache="false" />
+        <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_frame_notice_group" />
+    </FrameLayout>
+    <LinearLayout lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_middle">
+        <TextView lobi:id="@id/lobi_chat_refer_title" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginTop="4dp" style="@style/lobi_textview_black_default" />
+        <Button lobi:id="@id/lobi_chat_refer_action" lobi:background="@drawable/lobi_button_l_white_selector" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x1c01" lobi:layout_marginTop="@dimen/lobi_margin_middle" style="@style/lobi_textview_black_default" />
+    </LinearLayout>
+</LinearLayout>

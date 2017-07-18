@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/lobi_pearl_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07006e" />
+    <FrameLayout android:background="@color/lobi_white_true" android:padding="@dimen/lobi_padding_middle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/lobi_chat_new_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <TextView android:id="@id/lobi_chat_new_message_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="98dp" style="@style/lobi_textview_black_default_singleline" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=": " style="@style/lobi_textview_black_default_singleline" />
+            <TextView android:ellipsize="none" android:id="@id/lobi_chat_new_message_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/lobi_textview_black_default_singleline" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/lobi_img_shadow" android:scaleType="fitXY" />
+</LinearLayout>

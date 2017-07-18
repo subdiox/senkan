@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/lobi_margin_middle" android:layout_marginTop="@dimen/lobi_margin_middle" android:layout_marginRight="@dimen/lobi_margin_middle" android:layout_marginBottom="@dimen/lobi_margin_middle">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_margin_low" android:src="@drawable/icn_btn_list_present" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/lobi_brown" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lobi_authorized_root_header" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_authorized_root_header_btn" android:background="@drawable/lobi_button_s_white_selector" android:padding="@dimen/lobi_padding_low" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/lobi_margin_low" android:layout_marginRight="@dimen/lobi_margin_low">
+                <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lobi_open_prize_groups" />
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lobi_margin_low" android:src="@drawable/lobi_icn_arrow_black" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.kayac.lobi.libnakamap.components.DividerView android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

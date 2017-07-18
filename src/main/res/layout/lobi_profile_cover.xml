@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <FrameLayout lobi:id="@id/lobi_profile_cover_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+        <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_profile_cover_image" lobi:background="#fff" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f070069" lobi:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.kayac.lobi.libnakamap.components.UIScrollView lobi:id="@id/lobi_profile_cover_scroll_view" lobi:scrollbars="UNKNOWN_DATA_0x0" lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:fadingEdgeLength="0dp" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+        <FrameLayout lobi:id="@id/lobi_profile_cover_frame_layout" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_profile_container" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+                <View lobi:id="@id/lobi_profile_container_image_area" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f07006a" />
+            </LinearLayout>
+            <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_profile_cover_icon_container" lobi:background="@drawable/lobi_profile_cover_gradient" lobi:paddingBottom="@dimen/lobi_margin_high" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f07006a">
+                <com.kayac.lobi.libnakamap.components.ImageLoaderCircleView lobi:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_profile_cover_icon" lobi:layout_width="UNKNOWN_DATA_0x7f070067" lobi:layout_height="UNKNOWN_DATA_0x7f070067" lobi:scaleType="fitXY" lobi:lobi_borderWidth="2dp" />
+                <TextView lobi:id="@id/lobi_profile_profile_cover_content_name" lobi:background="@drawable/lobi_profile_textbox_edit_selector" lobi:paddingTop="@dimen/lobi_margin_middle" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="" style="@style/lobi_textview_white_very_large" />
+                <TextView lobi:id="@id/lobi_profile_profile_cover_content_videos_count" lobi:paddingBottom="@dimen/lobi_margin_middle" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="" style="@style/lobi_textview_white_default" />
+                <LinearLayout lobi:orientation="horizontal" lobi:id="@id/lobi_profile_cover_edit_button" lobi:background="@drawable/lobi_button_s_white_line_selector" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+                    <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="@dimen/lobi_margin_low" lobi:src="@drawable/lobi_icn_profile_setting" />
+                    <TextView lobi:textSize="@dimen/lobi_text_small" lobi:textColor="@color/lobi_white_true" lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_follow_button_label" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobi_edit_profile" />
+                </LinearLayout>
+                <View lobi:id="@id/lobi_profile_cover_margin_bottom" lobi:visibility="gone" lobi:layout_width="UNKNOWN_DATA_0x100" lobi:layout_height="UNKNOWN_DATA_0x7f07005a" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.kayac.lobi.libnakamap.components.UIScrollView>
+</merge>

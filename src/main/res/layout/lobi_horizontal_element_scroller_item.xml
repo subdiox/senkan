@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_horizontal_scroll_element" lobi:background="@drawable/lobi_horizontal_scroller_element_img_selector" lobi:clickable="true" lobi:layout_width="UNKNOWN_DATA_0x7f070072" lobi:layout_height="UNKNOWN_DATA_0x7f070071" lobi:tileMode="repeat">
+    <FrameLayout lobi:id="@id/lobi_horizontal_scroll_back" lobi:layout_width="match_parent" lobi:layout_height="match_parent"
+        <FrameLayout lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_fixed_tab_element_position" lobi:background="@color/lobi_orange" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x601" /> />
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_horizontal_scroller_image_on" lobi:layout_width="UNKNOWN_DATA_0x7f07007a" lobi:layout_height="UNKNOWN_DATA_0x7f07007a" lobi:layout_centerInParent="true" />
+    <FrameLayout lobi:layout_width="wrap_content" lobi:layout_height="match_parent"
+        <FrameLayout lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:background="@drawable/lobi_line_gray_vertical" lobi:layout_width="UNKNOWN_DATA_0x101" lobi:layout_height="UNKNOWN_DATA_0x1e01" /> />
+</RelativeLayout>

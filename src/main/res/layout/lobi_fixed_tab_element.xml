@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="@dimen/lobi_padding_high" android:paddingBottom="@dimen/lobi_padding_high" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/lobi_fixed_tab_element_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/lobi_fixed_tab_element_title" android:paddingLeft="@dimen/lobi_padding_low" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lobi_textview_black_default_singleline" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_fixed_tab_element_notice" android:paddingLeft="@dimen/lobi_margin_middle" android:paddingRight="@dimen/lobi_margin_middle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_padding_low" android:src="@drawable/lobi_icn_notice" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/lobi_fixed_tab_element_position" android:background="@color/lobi_orange" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x601" />
+    <View android:background="@color/lobi_horizontal_line_transparent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+</merge>

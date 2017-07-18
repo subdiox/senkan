@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="0x10a0004" android:duration="360" android:fillAfter="true" android:startOffset="0" android:fromXDelta="0%p" android:toXDelta="0%p" android:fromYDelta="0%p" android:toYDelta="-100%p" android:fillEnabled="true" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/lobi_custom_dialog_padding_left" android:paddingRight="@dimen/lobi_custom_dialog_padding_right" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@color/lobi_white" android:paddingTop="@dimen/lobi_padding_high" android:paddingBottom="@dimen/lobi_padding_high" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lobi_margin_high" android:indeterminate="true" style="@*style/Widget.ProgressBar.Inverse" />
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_custom_progress_dialog_message" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lobi_margin_high" android:layout_weight="1.0" style="@style/lobi_textview_gray_very_large_shadow_white" />
+    </LinearLayout>
+</FrameLayout>

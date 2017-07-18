@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout lobi:orientation="vertical" lobi:background="@color/lobi_white" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+        <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+            <TextView lobi:id="@id/lobi_custom_dialog_content_text" lobi:paddingLeft="@dimen/lobi_padding_high" lobi:paddingTop="@dimen/lobi_padding_high" lobi:paddingRight="@dimen/lobi_padding_high" lobi:paddingBottom="16dp" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_large" />
+        </FrameLayout>
+        <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_custom_dialog_content_checkbox_text" lobi:paddingBottom="12dp" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line_small" lobi:lobi_leftContentLayoutId="@layout/lobi_list_row_content_checkbox_small" lobi:lobi_rightContentVisible="false" />
+    </LinearLayout>
+</merge>

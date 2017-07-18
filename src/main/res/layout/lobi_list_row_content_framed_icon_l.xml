@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_list_row_content_left_image_loader" lobi:layout_width="UNKNOWN_DATA_0x7f070047" lobi:layout_height="UNKNOWN_DATA_0x7f070047" lobi:src="@drawable/lobi_thumb_wallpaper" />
+</FrameLayout>

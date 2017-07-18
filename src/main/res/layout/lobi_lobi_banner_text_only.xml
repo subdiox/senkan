@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x5001" lobi:layout_margin="@dimen/lobi_padding_high">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_lobi_banner_background" lobi:background="#fff" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:scaleType="centerCrop" />
+    <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="horizontal" lobi:background="@drawable/lobi_lobi_banner_gradient" lobi:padding="10dp" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+        <TextView lobi:textSize="@dimen/lobi_text_large" lobi:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_lobi_banner_description" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/lobi_textview_white_small" />
+    </LinearLayout>
+    <com.kayac.lobi.libnakamap.components.RoundCornerOverlayView lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:lobi_color="@color/lobi_white_background" lobi:lobi_radius="3dp" />
+</FrameLayout>

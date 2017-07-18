@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="lobi_backable" style="@style/lobi_action_bar" />
+    <ListView lobi:id="@id/lobi_chat_member_list" lobi:scrollbars="UNKNOWN_DATA_0x0" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:divider="@drawable/lobi_line_drawable" lobi:dividerHeight="@dimen/lobi_section_divider_with_padding" lobi:layout_weight="1.0" lobi:fastScrollEnabled="true" lobi:footerDividersEnabled="false" />
+</LinearLayout>

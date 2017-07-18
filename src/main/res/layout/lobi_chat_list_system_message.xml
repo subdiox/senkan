@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/lobi_chat_list_item_read_mark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/lobi_chat_list_read_mark" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/lobi_base_list" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x7f070035" android:layout_height="wrap_content">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_chat_list_system_message_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12/07/30 11:30" style="@style/lobi_textview_black_very_small" />
+            <com.kayac.lobi.libnakamap.components.CustomTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:autoLink="web|email|phone|map|all" android:id="@id/lobi_chat_list_system_message_message" android:paddingLeft="@dimen/lobi_padding_high" android:paddingRight="@dimen/lobi_padding_high" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" style="@style/lobi_textview_black_small" />
+            <LinearLayout android:orientation="vertical" android:id="@id/lobi_chat_list_system_message_creted_group" android:paddingLeft="@dimen/lobi_padding_high" android:paddingRight="@dimen/lobi_padding_high" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_chat_list_system_message_invitation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lobi_margin_middle" android:text="@string/lobi_add_friend" style="@style/lobi_white_button_l_small_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

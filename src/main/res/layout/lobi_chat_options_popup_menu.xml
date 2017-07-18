@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content"
+    <FrameLayout lobi:background="@drawable/lobi_bg_overflow_menu" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+        <LinearLayout lobi:orientation="vertical" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+            <FrameLayout lobi:id="@id/lobi_chat_options_popup_report_cancel_container" lobi:background="@drawable/lobi_chat_more_options_menu_background_selector" lobi:paddingLeft="@dimen/lobi_margin_section" lobi:paddingTop="@dimen/lobi_margin_section" lobi:paddingRight="@dimen/lobi_margin_section" lobi:paddingBottom="@dimen/lobi_margin_section" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <TextView lobi:id="@id/lobi_chat_options_popup_report_cancel_text" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_large" />
+            </FrameLayout>
+            <FrameLayout lobi:id="@id/lobi_chat_options_popup_separator" lobi:background="@drawable/lobi_line_gray_horizontal_repeat" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x101" />
+            <FrameLayout lobi:id="@id/lobi_chat_options_popup_like_dislike_container" lobi:background="@drawable/lobi_chat_more_options_menu_background_selector" lobi:paddingLeft="@dimen/lobi_margin_section" lobi:paddingTop="@dimen/lobi_margin_section" lobi:paddingRight="@dimen/lobi_margin_section" lobi:paddingBottom="@dimen/lobi_margin_section" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <TextView lobi:id="@id/lobi_chat_options_popup_like_dislike_text" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobi_to_poke_list" style="@style/lobi_textview_black_large" />
+            </FrameLayout>
+            <ListView lobi:id="0x102000a" lobi:visibility="gone" lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:divider="@color/lobi_sub_account_popup_divider" lobi:dividerHeight="0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

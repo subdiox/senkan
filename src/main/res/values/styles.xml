@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="StyleThemeTransparent">
+        <item>@color/transparent</item>
+        <item>true</item>
+        <item>?unknown_ref: 1030003</item>
+    </style>
+    <style name="MyGreenBtnStyle">
+        <item>18sp</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>@drawable/selector_btn_green</item>
+        <item>-1</item>
+        <item>38dp</item>
+    </style>
+    <style name="MyBlueBtnStyle">
+        <item>18sp</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>@drawable/selector_btn_blue</item>
+        <item>-1</item>
+        <item>38dp</item>
+    </style>
+    <style name="MyBlueGreenStyle">
+        <item>16sp</item>
+        <item>#5d5d5d</item>
+        <item>11</item>
+        <item>10</item>
+        <item>@drawable/selector_btn_blue_green</item>
+        <item>-1</item>
+        <item>38dp</item>
+    </style>
+    <style name="popupWindowAnimation">
+        <item>@anim/popup_enter_left</item>
+        <item>@anim/popup_exit_left</item>
+    </style>
+    <style name="popupWindowRightAnimation">
+        <item>@anim/popup_enter_right</item>
+        <item>@anim/popup_exit_right</item>
+    </style>
+    <style name="popupMenu">
+        <item>16sp</item>
+        <item>150dp</item>
+    </style>
+    <style name="MyAheadSignImageStyle">
+        <item>10</item>
+        <item>0dp</item>
+        <item>30dp</item>
+        <item>30dp</item>
+    </style>
+    <style name="MyEditTextSytle">
+        <item>@color/edit_hint</item>
+        <item>10</item>
+        <item>10</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>10000000</item>
+    </style>
+    <style name="MyTitleTextSytle">
+        <item>17sp</item>
+        <item>@color/txtGrayColor</item>
+        <item>10</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="MyParentLayoutWithOutWidth">
+        <item>40dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="MyParentLayoutStyle">
+        <item>-1</item>
+    </style>
+    <style name="MyParentLayoutWithBGStyle">
+        <item>@drawable/et_bg_img</item>
+    </style>
+    <style name="MyParentLayoutWithBGAndNoWidth">
+        <item>@drawable/et_bg_img</item>
+    </style>
+    <style name="MyParentLayoutWithOutWidthLand">
+        <item>30dp</item>
+        <item>5dp</item>
+    </style>
+    <style name="MyParentLayoutStyleLand">
+        <item>-1</item>
+        <item>5dp</item>
+    </style>
+    <style name="MyParentLayoutWithBGStyleLand">
+        <item>@drawable/et_bg_img</item>
+    </style>
+    <style name="MyParentLayoutWithBGAndNoWidthLand">
+        <item>@drawable/et_bg_img</item>
+    </style>
+    <style name="MyErrorTextStyle">
+        <item>@color/red</item>
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>30dp</item>
+        <item>0dp</item>
+        <item>30dp</item>
+    </style>
+    <style name="EmailSendSuccessText">
+        <item>22sp</item>
+        <item>@color/black</item>
+        <item>40dp</item>
+        <item>@string/send_email_ok</item>
+    </style>
+    <style name="MyGreenBtnStyleLand">
+        <item>14sp</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>@drawable/selector_btn_green</item>
+        <item>-1</item>
+        <item>30dp</item>
+    </style>
+    <style name="MyBlueBtnStyleLand">
+        <item>14sp</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>@drawable/selector_btn_blue</item>
+        <item>-1</item>
+        <item>30dp</item>
+    </style>
+    <style name="MyAheadSignImageStyleLand">
+        <item>10</item>
+        <item>5dp</item>
+        <item>30dp</item>
+        <item>30dp</item>
+    </style>
+    <style name="MyDisclaimerDialogStyle">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+    </style>
+    <style name="MyScreenShotStyle">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 1030003</item>
+    </style>
+    <style name="port_buttontext_stytle">
+        <item>14sp</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>3</item>
+        <item>true</item>
+    </style>
+    <style name="rkpay_title">
+        <item>22sp</item>
+        <item>#333333</item>
+        <item>true</item>
+    </style>
+    <style name="rkpay_textcontext">
+        <item>@dimen/font_size_title</item>
+        <item>@color/black_light</item>
+        <item>true</item>
+    </style>
+    <style name="rkpay_textlinearlayout">
+        <item>10</item>
+        <item>30dp</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>20dp</item>
+    </style>
+    <style name="Animations_Fading">
+        <item>?unknown_ref: 10a0000</item>
+        <item>?unknown_ref: 10a0001</item>
+    </style>
+    <style name="lobi_Animation_PopupWindow">
+    </style>
+    <style name="lobi_action_bar">
+        <item>@drawable/lobi_action_bar_background</item>
+        <item>-1</item>
+        <item>48dp</item>
+    </style>
+    <style name="lobi_custom_check_box">
+        <item>@drawable/lobi_checkbox_selector</item>
+        <item>@dimen/lobi_checkbox_width</item>
+        <item>@dimen/lobi_checkbox_height</item>
+        <item>@drawable/lobi_checkbox_selector</item>
+    </style>
+    <style name="lobi_custom_check_box_small">
+        <item>@drawable/lobi_checkbox_small_selector</item>
+        <item>30dp</item>
+        <item>30dp</item>
+        <item>@drawable/lobi_checkbox_small_selector</item>
+    </style>
+    <style name="lobi_custom_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_custom_dialog_button">
+        <item>@dimen/lobi_text_large</item>
+        <item>@drawable/lobi_custom_dialog_button_text_selector</item>
+        <item>@drawable/lobi_custom_dialog_button_selector</item>
+    </style>
+    <style name="lobi_green_button_l">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@drawable/lobi_button_white_text_selector</item>
+        <item>@drawable/lobi_button_l_green_selector</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="lobi_green_button_s">
+        <item>@dimen/lobi_text_default</item>
+        <item>@drawable/lobi_button_white_text_selector</item>
+        <item>@drawable/lobi_button_s_green_selector</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>false</item>
+    </style>
+    <style name="lobi_group_wrapper">
+        <item>false</item>
+    </style>
+    <style name="lobi_list_row">
+        <item>false</item>
+    </style>
+    <style name="lobi_orange_button_l">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@drawable/lobi_button_white_text_selector</item>
+        <item>@drawable/lobi_button_l_orange_selector</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="lobi_orange_button_s">
+        <item>@dimen/lobi_text_default</item>
+        <item>@drawable/lobi_button_white_text_selector</item>
+        <item>@drawable/lobi_button_s_orange_selector</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>@dimen/lobi_button_small</item>
+        <item>-2</item>
+        <item>false</item>
+    </style>
+    <style name="lobi_profile_cover">
+        <item>@dimen/lobi_profile_cover_max</item>
+        <item>@dimen/lobi_profile_cover_min</item>
+        <item>@dimen/lobi_profile_cover_icon_top_run_over</item>
+    </style>
+    <style name="lobi_textview_black_default">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_black</item>
+    </style>
+    <style name="lobi_textview_black_default_shadow_white">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_black</item>
+        <item>@color/lobi_text_shadow_white</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_black_default_singleline">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_black</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_black_default_singleline_shadow_white">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_black</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+        <item>@color/lobi_text_shadow_white</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_black_default_two_lines">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_text_black</item>
+        <item>3</item>
+        <item>2</item>
+    </style>
+    <style name="lobi_textview_black_large">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_black</item>
+    </style>
+    <style name="lobi_textview_black_large_singleline">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_black</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_black_small">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_black</item>
+    </style>
+    <style name="lobi_textview_black_small_two_lines">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_text_black</item>
+        <item>3</item>
+        <item>2</item>
+    </style>
+    <style name="lobi_textview_black_very_large">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_black</item>
+    </style>
+    <style name="lobi_textview_black_very_large_shadow_black">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_black</item>
+        <item>@color/lobi_text_shadow_black</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_black_very_large_shadow_white">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_black</item>
+        <item>@color/lobi_text_shadow_white</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_black_very_large_singleline">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_black</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_black_very_small">
+        <item>@dimen/lobi_text_very_small</item>
+        <item>@color/lobi_black</item>
+    </style>
+    <style name="lobi_textview_brown_default">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_brown</item>
+    </style>
+    <style name="lobi_textview_brown_small_singleline">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_brown</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_brown_very_small_singleline">
+        <item>@dimen/lobi_text_very_small</item>
+        <item>@color/lobi_brown</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_gray_default">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_gray</item>
+    </style>
+    <style name="lobi_textview_gray_default_singleline">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_gray</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_gray_large">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_gray</item>
+    </style>
+    <style name="lobi_textview_gray_small">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_gray</item>
+    </style>
+    <style name="lobi_textview_gray_small_shadow_white">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_gray</item>
+        <item>@color/lobi_text_shadow_white</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_gray_small_singleline">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_gray</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_gray_very_large">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_gray</item>
+    </style>
+    <style name="lobi_textview_gray_very_large_shadow_white">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_gray</item>
+        <item>@color/lobi_text_shadow_white</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.5</item>
+    </style>
+    <style name="lobi_textview_gray_very_small">
+        <item>@dimen/lobi_text_very_small</item>
+        <item>@color/lobi_gray</item>
+    </style>
+    <style name="lobi_textview_pearl_gray_large_singleline">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_pearl_gray</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_orange_default_singleline">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_orange</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_orange_large">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_orange</item>
+    </style>
+    <style name="lobi_textview_orange_large_singleline">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_orange</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_orange_small">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_orange</item>
+    </style>
+    <style name="lobi_textview_white_default">
+        <item>@dimen/lobi_text_default</item>
+        <item>@color/lobi_text_white</item>
+    </style>
+    <style name="lobi_textview_white_large">
+        <item>@dimen/lobi_text_large</item>
+        <item>@color/lobi_text_white</item>
+    </style>
+    <style name="lobi_textview_white_small">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_text_white</item>
+    </style>
+    <style name="lobi_textview_white_small_singleline">
+        <item>@dimen/lobi_text_small</item>
+        <item>@color/lobi_text_white</item>
+        <item>3</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="lobi_textview_white_very_large">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_text_white</item>
+    </style>
+    <style name="lobi_textview_white_very_large_twoline">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@color/lobi_text_white</item>
+        <item>3</item>
+        <item>2</item>
+    </style>
+    <style name="lobi_toggle_on_off_button">
+        <item>75dp</item>
+        <item>25dp</item>
+    </style>
+    <style name="lobi_trash_button">
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="lobi_white_button_l">
+        <item>@dimen/lobi_text_very_large</item>
+        <item>@drawable/lobi_button_gray_text_selector</item>
+        <item>@drawable/lobi_button_l_white_selector</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="lobi_white_button_l_small_text">
+        <item>@dimen/lobi_text_default</item>
+        <item>@drawable/lobi_button_gray_text_selector</item>
+        <item>@drawable/lobi_button_l_white_selector</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="LobiRecText">
+        <item>@dimen/lobi_rec_text_default</item>
+        <item>3</item>
+        <item>@color/lobi_rec_black</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="LobiRecText.VerySmall">
+        <item>@dimen/lobi_rec_text_very_small</item>
+    </style>
+    <style name="LobiRecText.VerySmall.Gray">
+        <item>@color/lobi_rec_gray</item>
+    </style>
+    <style name="LobiRecText.Small">
+        <item>@dimen/lobi_rec_text_small</item>
+    </style>
+    <style name="LobiRecText.Small.Gray">
+        <item>@color/lobi_rec_gray</item>
+    </style>
+    <style name="LobiRecText.VeryLarge">
+        <item>@dimen/lobi_rec_text_very_large</item>
+    </style>
+    <style name="LobiRecText.VeryLarge.White">
+        <item>@color/lobi_rec_white</item>
+    </style>
+    <style name="LobiRecContainer">
+        <item>10dp</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="LobiRecLine">
+        <item>@color/lobi_rec_pearl_gray</item>
+    </style>
+    <style name="LobiRecLine.Horizontal">
+        <item>-1</item>
+        <item>1px</item>
+    </style>
+    <style name="LobiRecLine.Vertical">
+        <item>1px</item>
+        <item>-1</item>
+    </style>
+    <style name="LobiRecLine.Vertical.Gray">
+        <item>@color/lobi_rec_gray</item>
+    </style>
+    <style name="LobiRecButtonShare">
+        <item>#000</item>
+        <item>32dp</item>
+        <item>32dp</item>
+        <item>5dp</item>
+        <item>5dp</item>
+    </style>
+    <style name="LobiRecActionBar">
+        <item>@drawable/lobi_action_bar_background</item>
+        <item>-1</item>
+        <item>48dp</item>
+    </style>
+    <style name="lobi_textview_chat_profile_button">
+        <item>1</item>
+        <item>12dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="lobi_textview_chat_profile_button_red">
+        <item>@color/lobi_red</item>
+    </style>
+    <style name="lobisdk_lobi_activity_theme">
+        <item>@style/lobisdk_chatview_animation</item>
+    </style>
+    <style name="lobisdk_chatview_animation">
+        <item>@anim/lobisdk_activity_pending_transition_in</item>
+        <item>@anim/lobisdk_activity_pending_transition_out</item>
+    </style>
+    <style name="lobisdk_theme_transparent">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="UnityThemeSelector">
+    </style>
+    <style name="UnityThemeSelector">
+    </style>
+    <style name="UnityThemeSelector">
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="horizontal" lobi:id="@id/lobi_notification_list_item_container" lobi:background="#fff" lobi:padding="@dimen/lobi_margin_high" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderCircleView lobi:id="@id/lobi_notification_list_item_user_icon" lobi:layout_width="UNKNOWN_DATA_0x7f070050" lobi:layout_height="UNKNOWN_DATA_0x7f070050" lobi:layout_marginRight="@dimen/lobi_margin_middle" lobi:scaleType="fitCenter" lobi:lobi_useMemoryCache="false" />
+    <LinearLayout lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+        <TextView lobi:id="@id/lobi_notification_list_item_activity" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_default" />
+        <TextView lobi:id="@id/lobi_notification_list_item_message" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_default" />
+        <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginTop="@dimen/lobi_margin_middle">
+            <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_notification_list_item_icon" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x7f070060" lobi:layout_marginRight="@dimen/lobi_margin_low" lobi:scaleType="fitCenter" lobi:lobi_useMemoryCache="false" />
+            <TextView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_notification_list_item_date" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:includeFontPadding="false" style="@style/lobi_textview_gray_very_small" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

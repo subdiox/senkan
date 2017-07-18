@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_chat_pick_preview_horizontallscroll_element" lobi:background="@drawable/lobi_horizontal_scroller_element_img_selector" lobi:clickable="true" lobi:layout_width="UNKNOWN_DATA_0x7f070072" lobi:layout_height="UNKNOWN_DATA_0x7f070071" lobi:tileMode="repeat">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_chat_pick_preview_horizontall_scroller_item_image" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:scaleType="centerCrop" lobi:layout_centerInParent="true" />
+</RelativeLayout>

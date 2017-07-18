@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:background="0x106000c" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <ProgressBar lobi:id="@id/lobi_rec_play_video_loading" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_centerInParent="true" style="0x101007a" />
+</RelativeLayout>

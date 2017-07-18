@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="lobi_chat_megamenu_hide">res/anim/lobi_chat_megamenu_hide.xml</anim>
+    <anim name="lobi_chat_megamenu_show">res/anim/lobi_chat_megamenu_show.xml</anim>
+    <anim name="lobi_chat_new_popup_fade_in">res/anim/lobi_chat_new_popup_fade_in.xml</anim>
+    <anim name="lobi_chat_new_popup_fade_out">res/anim/lobi_chat_new_popup_fade_out.xml</anim>
+    <anim name="lobi_chat_new_popup_message_fade_in">res/anim/lobi_chat_new_popup_message_fade_in.xml</anim>
+    <anim name="lobi_chat_new_popup_message_fade_out">res/anim/lobi_chat_new_popup_message_fade_out.xml</anim>
+    <anim name="lobi_icon_fade_in">res/anim/lobi_icon_fade_in.xml</anim>
+    <anim name="lobi_icon_fade_out">res/anim/lobi_icon_fade_out.xml</anim>
+    <anim name="lobi_slide_in_left">res/anim/lobi_slide_in_left.xml</anim>
+    <anim name="lobi_slide_in_right">res/anim/lobi_slide_in_right.xml</anim>
+    <anim name="lobi_slide_out_left">res/anim/lobi_slide_out_left.xml</anim>
+    <anim name="lobi_slide_out_right">res/anim/lobi_slide_out_right.xml</anim>
+    <anim name="lobisdk_activity_pending_transition_in">res/anim/lobisdk_activity_pending_transition_in.xml</anim>
+    <anim name="lobisdk_activity_pending_transition_out">res/anim/lobisdk_activity_pending_transition_out.xml</anim>
+    <anim name="lobisdk_badge_in">res/anim/lobisdk_badge_in.xml</anim>
+    <anim name="lobisdk_badge_out">res/anim/lobisdk_badge_out.xml</anim>
+    <anim name="lobisdk_badge_unread_in">res/anim/lobisdk_badge_unread_in.xml</anim>
+    <anim name="lobisdk_badge_unread_out">res/anim/lobisdk_badge_unread_out.xml</anim>
+    <anim name="popup_enter_left">res/anim/popup_enter_left.xml</anim>
+    <anim name="popup_enter_right">res/anim/popup_enter_right.xml</anim>
+    <anim name="popup_exit_left">res/anim/popup_exit_left.xml</anim>
+    <anim name="popup_exit_right">res/anim/popup_exit_right.xml</anim>
+</resources>

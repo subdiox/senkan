@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="UNKNOWN_DATA_0x7f070052" lobi:layout_height="UNKNOWN_DATA_0x7f070052">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_account_thumbnail_image_loader" lobi:paddingLeft="1dp" lobi:paddingRight="1dp" lobi:paddingBottom="1dp" lobi:layout_width="UNKNOWN_DATA_0x7f070052" lobi:layout_height="UNKNOWN_DATA_0x7f070052" lobi:scaleType="fitXY" lobi:lobi_useMemoryCache="true" />
+    <ImageView lobi:layout_width="UNKNOWN_DATA_0x7f070052" lobi:layout_height="UNKNOWN_DATA_0x7f070052" lobi:src="@drawable/lobi_frame_actionbar" />
+</merge>

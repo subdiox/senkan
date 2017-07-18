@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:background="@color/lobi_rec_background" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <LinearLayout lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:layout_alignParentTop="true">
+        <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="@string/lobirec_post_video" style="@style/lobi_action_bar" />
+        <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:baselineAligned="false">
+            <RelativeLayout lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_margin="@dimen/lobi_margin_high">
+                <ImageView lobi:id="@id/lobi_rec_activity_post_video_thumbnail" lobi:background="#000" lobi:layout_width="UNKNOWN_DATA_0x5001" lobi:layout_height="UNKNOWN_DATA_0x5001" lobi:scaleType="centerCrop" lobi:layout_centerInParent="true" />
+                <ProgressBar lobi:id="@id/lobi_rec_activity_post_video_progress" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:indeterminate="true" lobi:layout_centerInParent="true" style="@*style/Widget.ProgressBar.Small" />
+                <ImageView lobi:id="@id/lobi_rec_activity_post_video_play_btn" lobi:visibility="gone" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_btn_play_video" lobi:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout lobi:orientation="vertical" lobi:paddingTop="@dimen/lobi_margin_high" lobi:paddingRight="@dimen/lobi_margin_high" lobi:paddingBottom="@dimen/lobi_margin_high" lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="wrap_content" lobi:layout_weight="1.0"
+                <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                    <TextView lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_marginBottom="@dimen/lobi_margin_low" lobi:text="@string/lobirec_title" lobi:layout_weight="1.0" style="@style/LobiRecText.Small.Gray" />
+                    <TextView lobi:id="@id/title_header_count" style="@style/LobiRecText.Small.Gray" />
+                </LinearLayout>
+                <com.kayac.lobi.libnakamap.components.UIEditText lobi:id="@id/title" lobi:background="@color/lobi_transparent" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/LobiRecText" />
+                <View lobi:layout_marginTop="@dimen/lobi_margin_high" lobi:layout_marginBottom="@dimen/lobi_margin_high" style="@style/LobiRecLine.Horizontal" />
+                <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                    <TextView lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_marginBottom="@dimen/lobi_margin_low" lobi:text="@string/lobirec_comment" lobi:layout_weight="1.0" style="@style/LobiRecText.Small.Gray" />
+                    <TextView lobi:id="@id/description_header_count" style="@style/LobiRecText.Small.Gray" />
+                </LinearLayout>
+                <com.kayac.lobi.libnakamap.components.UIEditText lobi:id="@id/description" lobi:background="@color/lobi_transparent" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/LobiRecText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_alignParentBottom="true">
+        <LinearLayout lobi:orientation="horizontal" lobi:background="@color/lobi_darker" lobi:layout_width="match_parent" lobi:layout_height="wrap_content"
+            <LinearLayout lobi:orientation="vertical" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_margin="@dimen/lobi_margin_high">
+                <TextView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginBottom="@dimen/lobi_margin_high" lobi:text="@string/lobirec_video_menu" style="@style/LobiRecText.Small.Gray" />
+                <LinearLayout lobi:orientation="horizontal" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content"
+                    <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_rec_btn_video_list" lobi:background="@drawable/lobi_button_s_white_selector" lobi:paddingLeft="@dimen/lobi_margin_high" lobi:paddingRight="@dimen/lobi_margin_high" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x7f070019" lobi:layout_marginRight="@dimen/lobi_margin_high">
+                        <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginBottom="@dimen/lobi_margin_low" lobi:src="@drawable/lobi_icn_video_list" lobi:contentDescription="@string/lobirec_video_list" />
+                        <TextView lobi:textSize="@dimen/lobi_rec_text_smallest" lobi:textStyle="bold" lobi:textColor="@color/lobi_black" lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_show_video_list" />
+                    </LinearLayout>
+                    <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_rec_btn_faq" lobi:background="@drawable/lobi_button_s_white_selector" lobi:paddingLeft="@dimen/lobi_margin_high" lobi:paddingRight="@dimen/lobi_margin_high" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x7f070019">
+                        <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginBottom="@dimen/lobi_margin_low" lobi:src="@drawable/lobi_icn_help" lobi:contentDescription="@string/lobirec_help" />
+                        <TextView lobi:textSize="@dimen/lobi_rec_text_smallest" lobi:textStyle="bold" lobi:textColor="@color/lobi_black" lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_help" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View lobi:layout_marginTop="0dp" style="@style/LobiRecLine.Vertical" />
+            <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:layout_margin="@dimen/lobi_margin_high"
+                <LinearLayout lobi:orientation="vertical" lobi:id="@id/share_unit" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="@dimen/lobi_margin_highest">
+                    <TextView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginBottom="@dimen/lobi_margin_high" lobi:text="@string/lobirec_share_with_sns" style="@style/LobiRecText.Small.Gray" />
+                    <LinearLayout lobi:orientation="horizontal" lobi:paddingRight="@dimen/lobi_rec_padding_default" lobi:layout_width="match_parent" lobi:layout_height="wrap_content"
+                        <LinearLayout lobi:orientation="horizontal" lobi:id="@id/share_youtube_unit" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="@dimen/lobi_margin_high">
+                            <ImageView lobi:id="@id/share_web_youtube" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_youtube_off" lobi:contentDescription="@string/lobirec_youtube" />
+                        </LinearLayout>
+                        <LinearLayout lobi:orientation="horizontal" lobi:id="@id/share_nicovideo_unit" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="@dimen/lobi_margin_high">
+                            <ImageView lobi:id="@id/share_web_nicovideo" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_nicovideo_off" lobi:contentDescription="@string/lobirec_nicovideo" />
+                        </LinearLayout>
+                        <LinearLayout lobi:orientation="horizontal" lobi:id="@id/share_twitter_unit" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="@dimen/lobi_margin_high">
+                            <ImageView lobi:id="@id/share_web_twitter" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_twitter_off" lobi:contentDescription="@string/lobirec_twitter" />
+                        </LinearLayout>
+                        <LinearLayout lobi:orientation="horizontal" lobi:id="@id/share_facebook_unit" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+                            <ImageView lobi:id="@id/share_web_facebook" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_facebook_off" lobi:contentDescription="@string/lobirec_facebook" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_rec_btn_post_video" lobi:background="@drawable/lobi_button_s_green_selector" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f070019">
+                    <TextView lobi:textStyle="bold" lobi:textColor="@color/lobi_white" lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_post_video" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View lobi:layout_alignParentTop="true" style="@style/LobiRecLine.Horizontal" />
+        <ImageView lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f07005a" lobi:src="@drawable/lobi_img_tab_shadow" lobi:scaleType="fitXY" lobi:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

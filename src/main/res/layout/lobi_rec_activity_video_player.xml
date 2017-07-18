@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:background="0x106000c" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <VideoView lobi:id="@id/lobi_rec_play_video_player" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:layout_centerInParent="true" />
+</RelativeLayout>

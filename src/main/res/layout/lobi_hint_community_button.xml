@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@dimen/lobi_padding_high" android:paddingRight="14dp" android:paddingBottom="62dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@id/lobi_hint_community_message" android:background="@drawable/lobi_balloon_top_right_tutorial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" style="@style/lobi_textview_white_default" />
+</LinearLayout>

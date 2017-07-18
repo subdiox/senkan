@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kayac.lobi.libnakamap.components.SectionView android:id="@id/lobi_list_row_index_text" android:background="@drawable/lobi_bg_light_repeat" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lobi_list_row_area" android:background="@drawable/lobi_custom_dialog_list_row_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07003f">
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_list_row_left_content_view_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lobi_margin_middle">
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_list_row_center_content_view_area" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lobi_margin_high" android:layout_marginRight="@dimen/lobi_margin_high" android:layout_weight="1.0">
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_list_row_right_content_view_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_margin_high">
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="@string/lobisdk_login" style="@style/lobi_action_bar" />
+    <RelativeLayout lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+        <WebView lobi:id="@id/lobi_rec_sns_login_content" lobi:layout_width="match_parent" lobi:layout_height="match_parent" />
+        <ProgressBar lobi:id="@id/lobi_rec_sns_login_loading" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_centerInParent="true" style="0x101007a" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:paddingTop="12dp" lobi:paddingBottom="12dp" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+    <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="horizontal" lobi:background="#0000" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1901">
+        <ImageView lobi:paddingRight="@dimen/lobi_padding_low" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_arrow_top" />
+        <TextView lobi:textColor="#fff" lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobi_unread" style="@style/lobi_textview_white_small_singleline" />
+    </LinearLayout>
+</FrameLayout>

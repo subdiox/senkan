@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="@string/lobi_add_friend" style="@style/lobi_action_bar" />
+    <com.kayac.lobi.libnakamap.components.SearchBox lobi:id="@id/lobi_search_box" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_closeButton="false" lobi:lobi_searchHintText="@string/lobi_search_search_by_name" />
+    <ImageView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_img_shadow" lobi:scaleType="fitXY" />
+    <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:layout_weight="1.0">
+        <ListView lobi:id="@id/lobi_group_contacts_list" lobi:background="0x106000d" lobi:visibility="invisible" lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:divider="@drawable/lobi_line_drawable" lobi:dividerHeight="@dimen/lobi_section_divider_with_padding" lobi:fastScrollEnabled="true" lobi:overScrollMode="never" />
+        <include lobi:id="@id/lobi_contacts_list_empty_view_layout" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="match_parent" layout="@layout/lobi_chat_friend_not_found_view" />
+        <include lobi:id="@id/lobi_contacts_list_not_hit_view_layout" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="match_parent" layout="@layout/lobi_chat_friend_filter_not_hit_view" />
+    </FrameLayout>
+</LinearLayout>

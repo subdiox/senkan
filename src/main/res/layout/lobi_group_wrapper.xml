@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lobi_group_wrapper_base" android:background="@drawable/lobi_base_list_selector" android:paddingLeft="@dimen/lobi_padding_middle" android:paddingTop="@dimen/lobi_padding_high" android:paddingRight="@dimen/lobi_padding_middle" android:paddingBottom="@dimen/lobi_padding_high" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/lobi_group_wrapper_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3401">
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_group_wrapper_title" android:paddingTop="@dimen/lobi_padding_high" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lobi_textview_black_large" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

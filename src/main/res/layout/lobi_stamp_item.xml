@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="horizontal" lobi:paddingLeft="@dimen/lobi_stamp_thumb_padding" lobi:paddingTop="@dimen/lobi_stamp_thumb_padding" lobi:paddingRight="@dimen/lobi_stamp_thumb_padding" lobi:paddingBottom="@dimen/lobi_stamp_thumb_padding" lobi:layout_width="UNKNOWN_DATA_0x7f070077" lobi:layout_height="UNKNOWN_DATA_0x7f070076">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_stamp_image" lobi:layout_width="UNKNOWN_DATA_0x7f07007c" lobi:layout_height="UNKNOWN_DATA_0x7f070078" lobi:layout_centerInParent="true" lobi:lobi_baseDrawable="@drawable/lobi_bg_light_repeat" lobi:lobi_useMemoryCache="false" />
+</LinearLayout>

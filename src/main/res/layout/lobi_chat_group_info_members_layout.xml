@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3401">
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/lobi_chat_group_info_members_layout_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="@dimen/lobi_padding_high" android:layout_weight="1.0" />
+    <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_chat_group_info_members_layout_num_members" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" style="@style/lobi_textview_gray_default" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/lobi_icn_arrow_black" />
+</merge>

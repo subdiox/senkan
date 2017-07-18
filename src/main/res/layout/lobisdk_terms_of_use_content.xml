@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:fadingEdge="UNKNOWN_DATA_0x0" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/lobi_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/lobi_custom_dialog_content_text" android:padding="@dimen/lobi_padding_high" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lobi_textview_black_large" />
+    </FrameLayout>
+</ScrollView>

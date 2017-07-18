@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="match_parent"
+    <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_chat_edit_tools_container" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+        <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:layout_marginLeft="@dimen/lobi_padding_high" lobi:layout_marginRight="@dimen/lobi_padding_high" lobi:layout_weight="1.0">
+            <com.kayac.lobi.libnakamap.components.UIEditText lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_chat_edit" lobi:background="@drawable/lobi_textbox_edit_selector" lobi:paddingLeft="@dimen/lobi_padding_middle" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:paddingBottom="24dp" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:layout_marginTop="@dimen/lobi_padding_high" style="@style/lobi_textview_black_default" />
+            <TextView lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_chat_edit_counter" lobi:paddingBottom="12dp" lobi:focusable="false" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_padding_middle" lobi:layout_marginRight="@dimen/lobi_padding_middle" lobi:text="255" lobi:singleLine="true" style="@style/lobi_textview_gray_small" />
+        </FrameLayout>
+        <LinearLayout lobi:orientation="horizontal" lobi:padding="12dp" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+            <FrameLayout lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_chat_edit_start_stamp" lobi:background="@drawable/lobi_button_s_white_selector" lobi:visibility="gone" lobi:layout_width="UNKNOWN_DATA_0x7f070018" lobi:layout_height="UNKNOWN_DATA_0x7f070018">
+                <ImageView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:duplicateParentState="true" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_chat_stamp_selector" lobi:scaleType="center" />
+            </FrameLayout>
+            <FrameLayout lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:layout_width="UNKNOWN_DATA_0x7f070018" lobi:layout_height="UNKNOWN_DATA_0x7f070018" lobi:layout_marginLeft="@dimen/lobi_padding_high">
+                <com.kayac.lobi.sdk.chat.activity.ChatEditPictureButton lobi:id="@id/lobi_chat_edit_picture" lobi:layout_width="UNKNOWN_DATA_0x7f070018" lobi:layout_height="UNKNOWN_DATA_0x7f070018" />
+            </FrameLayout>
+            <TextView lobi:id="@id/lobi_chat_edit_photo_counter" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_padding_low" lobi:text="Photos" lobi:singleLine="true" style="@style/lobi_textview_gray_small" />
+            <FrameLayout lobi:layout_width="UNKNOWN_DATA_0x101" lobi:layout_height="wrap_content" lobi:layout_weight="1.0" />
+            <Button lobi:id="@id/lobi_chat_edit_post" lobi:layout_width="UNKNOWN_DATA_0x4b01" lobi:layout_height="UNKNOWN_DATA_0x7f070018" lobi:layout_marginLeft="12dp" lobi:text="@string/lobi_send" style="@style/lobi_orange_button_s" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

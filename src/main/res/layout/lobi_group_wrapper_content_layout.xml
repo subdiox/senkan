@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:paddingLeft="@dimen/lobi_padding_low" lobi:paddingRight="@dimen/lobi_padding_low" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderSquareView lobi:id="@id/lobi_group_wrapper_content_image_loader" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:scaleType="centerCrop" lobi:adjustViewBounds="true" />
+</LinearLayout>

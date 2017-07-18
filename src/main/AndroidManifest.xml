@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="1.7.0" android:installLocation="auto" package="com.joytea.warship" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.intent.REGISTRATION" />
+    <permission android:name="com.joytea.warship.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.joytea.warship.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:debuggable="false" android:banner="@drawable/app_banner" android:isGame="true">
+        <activity android:label="@string/app_name" android:name="com.customsdk.rekoo.RekooMainActivity" android:launchMode="singleTask" android:screenOrientation="sensorLandscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+        </activity>
+        <service android:name="com.yunva.im.sdk.lib.service.VioceService" />
+        <service android:name="com.lthz.update.DownloadService" />
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
+        <receiver android:name="com.adjust.sdk.AdjustReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="net.agasper.unitynotification.UnityNotificationManager" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.example.customtool.DummyActivity" android:configChanges="keyboardHidden|orientation" />
+        <meta-data android:name="REKOO_CHANNEL" android:value="REKOO_JP" />
+        <meta-data android:name="REKOO_GAMEKEY" android:value="LTHZ" />
+        <meta-data android:name="RK_APPID" android:value="70012" />
+        <meta-data android:name="SENDID" android:value="RK956423148597" />
+        <meta-data android:name="PACKAGENAMES" android:value="com.customsdk.rekoo.RekooMainActivity" />
+        <service android:name="com.rekoo.service.SendDataService" />
+        <activity android:theme="@style/StyleThemeTransparent" android:name="com.rekoo.libs.platform.ui.BasicActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="com.rekoo.libs.platform.ui.UserFeedbackActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="com.rekoo.libs.platform.ui.FloatWebView" />
+        <activity android:name="com.rekoo.libs.platform.ui.FeedbackList" android:launchMode="singleTask" android:screenOrientation="landscape" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="com.rekoo.libs.push.NotificationActivity" />
+        <receiver android:name="com.rekoo.libs.push.MyBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.joytea.warship" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.rekoo.libs.push.GCMIntentService" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.mob.tools.MobUIShell" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <meta-data android:name="yv_appid" android:value="1000515" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.ad.AdRecommendActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.invitation.InvitationWebViewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.invitation.InvitationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="nakamap" android:host="invited" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/lobisdk_lobi_activity_theme" android:name="com.kayac.lobi.sdk.activity.RootActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="nakamapapp-5d9eb22f0d841f873c3b0d0c3969259bf32f5c5d" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.profile.ProfileActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.profile.ProfileEditActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.stamp.StampActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.group.CreateNewGroupActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.setting.WebViewSetting" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.group.ContactListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.group.UserFollowerListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.group.ContactRecommendedActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.menu.MenuActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.activity.AppDownloadActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <service android:name="com.kayac.lobi.sdk.service.AppInstallChecker" />
+        <service android:name="com.kayac.nakamap.sdk.auth.NakamapAuthCallbackService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.kayac.nakamap.NAKAMAP_APP_AUTH_CALLBACK_5d9eb22f0d841f873c3b0d0c3969259bf32f5c5d" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.kayac.lobi.sdk.receiver.AppInstallReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.kayac.lobi.sdk.clientId" android:value="5d9eb22f0d841f873c3b0d0c3969259bf32f5c5d" />
+        <meta-data android:name="com.kayac.lobi.sdk.accountBaseName" android:value="艦長" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecPlayActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecPostVideoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecSNSLoginActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecVideoLoadingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecVideoPlayerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.kayac.lobi.sdk.rec.activity.RecFAQActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <service android:name="com.kayac.lobi.sdk.rec.service.MovieUploadService" />
+    </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:glEsVersion="20000" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+</manifest>

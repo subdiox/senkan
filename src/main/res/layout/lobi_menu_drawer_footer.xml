@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+    <TextView lobi:textSize="@dimen/lobi_text_large" lobi:id="@id/lobi_menu_drawer_login_button" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x2a01" lobi:layout_marginLeft="@dimen/lobi_padding_high" lobi:layout_marginTop="@dimen/lobi_padding_high" lobi:layout_marginRight="@dimen/lobi_padding_high" lobi:layout_marginBottom="@dimen/lobi_padding_middle" lobi:text="@string/lobisdk_login_lobi" style="@style/lobi_green_button_s" />
+    <com.kayac.lobi.sdk.view.LobiBannerView lobi:id="@id/lobi_menu_drawer_lobi_banner" lobi:paddingTop="@dimen/lobi_padding_high" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_padding_high" lobi:layout_marginRight="@dimen/lobi_padding_high" />
+</LinearLayout>

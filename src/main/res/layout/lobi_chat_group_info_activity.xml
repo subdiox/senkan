@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="@string/lobi_group_detail_title" style="@style/lobi_action_bar" />
+    <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:layout_weight="1.0">
+        <ScrollView lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+            <LinearLayout lobi:orientation="vertical" lobi:background="@color/lobi_white_true" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+                <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x6401">
+                    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_chat_group_background" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:scaleType="centerCrop" />
+                    <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:background="#66000000" lobi:paddingTop="@dimen/lobi_padding_high" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:paddingBottom="@dimen/lobi_padding_high" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+                        <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_chat_group_settings" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_leftContentLayoutId="@layout/lobi_list_row_content_image_loader_big" lobi:lobi_rightContentVisible="false" lobi:lobi_wrapContent="true" />
+                    </LinearLayout>
+                    <View lobi:id="@id/lobi_chat_group_header" lobi:background="@drawable/lobi_group_header_selector" lobi:layout_width="match_parent" lobi:layout_height="match_parent" />
+                </FrameLayout>
+                <com.kayac.lobi.libnakamap.components.CustomTextView lobi:autoLink="web|email|phone|map|all" lobi:id="@id/lobi_chat_group_info_description" lobi:background="@drawable/lobi_profile_textbox_edit_selector" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:focusable="false" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_high" lobi:layout_marginTop="24dp" lobi:layout_marginRight="@dimen/lobi_margin_high" lobi:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/lobi_textview_black_default" />
+                <TextView lobi:id="@id/lobi_chat_group_info_description_explain" lobi:paddingLeft="@dimen/lobi_padding_middle" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_high" lobi:layout_marginTop="24dp" lobi:layout_marginRight="@dimen/lobi_margin_high" lobi:text="@string/lobi_key_grp_description" style="@style/lobi_textview_black_default" />
+                <LinearLayout lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginTop="@dimen/lobi_padding_high">
+                    <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                    <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="horizontal" lobi:id="@id/lobi_chat_group_info_move_like_ranking" lobi:background="@drawable/lobi_setting_row_white_selector" lobi:paddingLeft="@dimen/lobi_padding_high" lobi:focusable="true" lobi:clickable="true" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f07003f">
+                        <TextView lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="wrap_content" lobi:text="@string/lobi_see_like_many_chats" lobi:layout_weight="1.0" />
+                        <ImageView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:paddingRight="@dimen/lobi_padding_high" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_arrow_black" lobi:scaleType="fitXY" />
+                    </LinearLayout>
+                    <com.kayac.lobi.libnakamap.components.SectionView lobi:id="@id/lobi_chat_group_info_members_section" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_section_title="@string/lobi_group_member_members" />
+                    <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_chat_group_info_members" lobi:paddingBottom="@dimen/lobi_padding_middle" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_two_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentLayoutId="@layout/lobi_list_row_content_image_loader_icon" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+                    <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_chat_group_info_add_friend_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                        <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.kayac.lobi.libnakamap.components.SectionView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_section_title="@string/lobi_other_setting_group_detail" />
+                    <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_chat_group_info_delete_group_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                        <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_chat_group_info_delete_group" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+                        <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_chat_group_info_accuse_abuse_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                        <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_chat_group_info_accuse_abuse" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+                        <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_img_shadow" lobi:scaleType="fitXY" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

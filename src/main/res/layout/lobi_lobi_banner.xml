@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:paddingBottom="@dimen/lobi_padding_high" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x4d01">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_lobi_banner_background" lobi:background="@color/lobi_pearl_gray" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:scaleType="centerCrop" />
+    <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="horizontal" lobi:background="@drawable/lobi_lobi_banner_gradient" lobi:padding="10dp" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+        <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_lobi_banner_icon" lobi:layout_width="UNKNOWN_DATA_0x2d01" lobi:layout_height="UNKNOWN_DATA_0x2d01" />
+        <LinearLayout lobi:orientation="vertical" lobi:paddingLeft="10dp" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+            <TextView lobi:textSize="@dimen/lobi_text_large" lobi:id="@id/lobi_lobi_banner_app_name" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginBottom="3dp" style="@style/lobi_textview_white_small_singleline" />
+            <TextView lobi:id="@id/lobi_lobi_banner_description" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/lobi_textview_white_small_singleline" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.kayac.lobi.libnakamap.components.RoundCornerOverlayView lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:lobi_color="@color/lobi_white_background" lobi:lobi_radius="3dp" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <FrameLayout lobi:background="@color/lobi_white" lobi:paddingLeft="@dimen/lobi_padding_high" lobi:paddingTop="@dimen/lobi_padding_high" lobi:paddingRight="@dimen/lobi_padding_high" lobi:paddingBottom="@dimen/lobi_padding_high" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+        <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_custom_dialog_content_image" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_centerInParent="true" lobi:lobi_useMemoryCache="false" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:paddingTop="@dimen/lobi_padding_low" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:layout_width="UNKNOWN_DATA_0x7f070045" lobi:layout_height="UNKNOWN_DATA_0x7f070046">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_list_row_content_image_loader_big_image_view" lobi:layout_width="UNKNOWN_DATA_0x7f070045" lobi:layout_height="UNKNOWN_DATA_0x7f070046" lobi:scaleType="centerCrop" />
+    <ImageView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_list_row_content_image_loader_big_zoom_icon" lobi:paddingRight="@dimen/lobi_padding_low" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:visibility="gone" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_btn_gallery_zoom" />
+</FrameLayout>

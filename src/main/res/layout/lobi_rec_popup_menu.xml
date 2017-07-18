@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:paddingRight="@dimen/lobi_rec_padding_default" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content"
+    <FrameLayout lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+        <LinearLayout lobi:orientation="vertical" lobi:background="@color/lobi_rec_background" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+            <FrameLayout lobi:id="@id/lobi_rec_popup_profile" lobi:paddingLeft="@dimen/lobi_rec_padding_default" lobi:paddingTop="@dimen/lobi_rec_padding_default" lobi:paddingRight="@dimen/lobi_rec_padding_default" lobi:paddingBottom="@dimen/lobi_rec_padding_default" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <TextView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_profile" style="@style/lobi_textview_black_large" />
+            </FrameLayout>
+            <FrameLayout lobi:background="@drawable/lobi_line_gray_horizontal_repeat" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x101" />
+            <FrameLayout lobi:id="@id/lobi_rec_popup_playlist" lobi:paddingLeft="@dimen/lobi_rec_padding_default" lobi:paddingTop="@dimen/lobi_rec_padding_default" lobi:paddingRight="@dimen/lobi_rec_padding_default" lobi:paddingBottom="@dimen/lobi_rec_padding_default" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <TextView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_video_list" style="@style/lobi_textview_black_large" />
+            </FrameLayout>
+            <FrameLayout lobi:background="@drawable/lobi_line_gray_horizontal_repeat" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x101" />
+            <FrameLayout lobi:id="@id/lobi_rec_popup_help" lobi:paddingLeft="@dimen/lobi_rec_padding_default" lobi:paddingTop="@dimen/lobi_rec_padding_default" lobi:paddingRight="@dimen/lobi_rec_padding_default" lobi:paddingBottom="@dimen/lobi_rec_padding_default" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <TextView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:text="@string/lobirec_help" style="@style/lobi_textview_black_large" />
+            </FrameLayout>
+            <ListView lobi:id="0x102000a" lobi:visibility="gone" lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:divider="@color/lobi_rec_gray" lobi:dividerHeight="0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

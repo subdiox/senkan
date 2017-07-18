@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="horizontal" lobi:background="@color/lobi_white_true" lobi:padding="@dimen/lobi_margin_middle" lobi:focusable="false" lobi:focusableInTouchMode="false" lobi:descendantFocusability="blocksDescendants" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x3801">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderCircleView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_follow_list_item_icon" lobi:layout_width="UNKNOWN_DATA_0x7f070050" lobi:layout_height="UNKNOWN_DATA_0x7f070050" lobi:layout_marginRight="@dimen/lobi_margin_middle" />
+    <LinearLayout lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="vertical" lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="match_parent" lobi:layout_weight="1.0">
+        <TextView lobi:textSize="@dimen/lobi_text_large" lobi:textColor="@color/lobi_black" lobi:id="@id/lobi_follow_list_item_lobi_name" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" />
+        <TextView lobi:textSize="@dimen/lobi_text_more_small" lobi:textColor="@color/lobi_pearl_gray" lobi:id="@id/lobi_follow_list_item_name" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.kayac.lobi.libnakamap.components.LobiFollowButton lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_follow_list_item_follow" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" />
+</LinearLayout>

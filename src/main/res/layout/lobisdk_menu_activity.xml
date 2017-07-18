@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="@string/lobi_settings" style="@style/lobi_action_bar" />
+    <ScrollView lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:fillViewport="true">
+        <LinearLayout lobi:orientation="vertical" lobi:paddingBottom="@dimen/lobi_margin_extra_large" lobi:layout_width="match_parent" lobi:layout_height="wrap_content"
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_menu_bind_container" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_menu_bind" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginTop="@dimen/lobi_margin_highest" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+                <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_setting_general_block_user_list_area" lobi:visibility="gone" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <com.kayac.lobi.libnakamap.components.SectionView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_section_title="@string/lobi_block" />
+                <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_block_user_list" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_multiple_selection" />
+                <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.kayac.lobi.libnakamap.components.SectionView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_section_title="@string/lobi_help" />
+            <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_menu_about" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_setting_general_help_faq_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_help_faq" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            </LinearLayout>
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_setting_general_help_rec_faq_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_help_rec_faq" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            </LinearLayout>
+            <LinearLayout lobi:orientation="vertical" lobi:id="@id/lobi_menu_blog_container" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+                <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_menu_blog" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            </LinearLayout>
+            <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_menu_contact_us" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            <com.kayac.lobi.libnakamap.components.SectionView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_section_title="@string/lobi_other_setting_group_detail" />
+            <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_othre_terms_of_service" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_othre_act_on_sect" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+            <com.kayac.lobi.libnakamap.components.ListRow lobi:id="@id/lobi_setting_general_othre_acknowledgments" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_centerContentLayoutId="@layout/lobi_list_row_content_one_line" lobi:lobi_contentBackground="@drawable/lobi_setting_row_selector" lobi:lobi_leftContentVisible="false" lobi:lobi_rightContentLayoutId="@layout/lobi_list_row_content_arrow" />
+            <com.kayac.lobi.libnakamap.components.DividerView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

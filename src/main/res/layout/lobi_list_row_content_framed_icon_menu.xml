@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kayac.lobi.libnakamap.components.FramedImageLoader xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="UNKNOWN_DATA_0x7f070051" lobi:layout_height="UNKNOWN_DATA_0x7f070051" lobi:lobi_frameHeight="@dimen/lobi_icon_menu" lobi:lobi_frameResourceId="0x106000d" lobi:lobi_frameWidth="@dimen/lobi_icon_menu" />

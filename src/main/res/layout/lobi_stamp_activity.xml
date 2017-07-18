@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="vertical" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="1" lobi:lobi_text="" style="@style/lobi_action_bar" />
+    <LinearLayout lobi:orientation="horizontal" lobi:background="@color/lobi_white_true" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f070071">
+        <com.kayac.lobi.libnakamap.components.HorizontalElementScroller lobi:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_stamp_category_scroller" lobi:background="#ffff00ff" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_img_shadow" lobi:scaleType="fitXY" />
+    <FrameLayout lobi:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:background="@drawable/lobi_bg_light_repeat" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:layout_weight="1.0">
+        <android.support.v4.view.ViewPager lobi:id="@id/lobi_stamp_view_pager" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+            <GridView lobi:id="@id/lobi_stamp_grid" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:verticalSpacing="@dimen/lobi_stamp_vertical_spacing" lobi:numColumns="UNKNOWN_DATA_0x4" />
+        </android.support.v4.view.ViewPager>
+    </FrameLayout>
+</LinearLayout>

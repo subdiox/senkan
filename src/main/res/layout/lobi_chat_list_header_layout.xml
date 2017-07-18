@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="horizontal" lobi:id="@id/lobi_chat_header_holder" lobi:background="@drawable/lobi_base_list" lobi:padding="@dimen/lobi_chat_members_header_padding" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_padding_middle" lobi:layout_marginTop="@dimen/lobi_padding_high" lobi:layout_marginRight="@dimen/lobi_padding_middle" lobi:layout_marginBottom="6dp">
+    <com.kayac.lobi.libnakamap.components.FramedImageLoader lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_chat_list_header_group_icon" lobi:layout_width="UNKNOWN_DATA_0x7f07002c" lobi:layout_height="UNKNOWN_DATA_0x7f07002c" lobi:lobi_frameResourceId="@drawable/lobi_frame_list" />
+    <LinearLayout lobi:orientation="vertical" lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="match_parent" lobi:layout_marginLeft="@dimen/lobi_chat_members_header_member_icon_margin" lobi:layout_weight="1.0">
+        <TextView lobi:id="@id/lobi_chat_list_members_description" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:text="@string/lobi_key_grp_description" style="@style/lobi_textview_gray_small_singleline" />
+        <LinearLayout lobi:orientation="horizontal" lobi:id="@id/lobi_chat_list_members_container" lobi:layout_width="match_parent" lobi:layout_height="match_parent" /> />
+    <ImageView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_arrow_black" />
+</LinearLayout>

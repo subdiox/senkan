@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_action_bar_menu_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lobi_action_bar_button_menu_selector_01" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lobi_action_bar_account" android:background="@drawable/lobi_action_bar_button_selector" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_action_bar_account_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" style="@style/lobi_textview_white_very_large" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_action_bar_account_notice" android:paddingLeft="@dimen/lobi_margin_middle" android:paddingRight="@dimen/lobi_margin_middle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_padding_low" android:src="@drawable/lobi_icn_notice" />
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingRight="@dimen/lobi_padding_low" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070052">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_action_bar_account_down_icon" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lobi_icn_actionbar_down" android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

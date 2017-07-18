@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+    <com.kayac.lobi.libnakamap.components.ImageLoaderView lobi:id="@id/lobi_menu_drawer_user_cover" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f070086" lobi:scaleType="centerCrop" />
+    <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:background="@color/lobi_menu_drawer_user_cover_overlay" lobi:paddingLeft="@dimen/lobi_padding_high" lobi:paddingTop="@dimen/lobi_margin_section" lobi:paddingRight="@dimen/lobi_padding_high" lobi:paddingBottom="@dimen/lobi_margin_section" lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x7f070086">
+        <com.kayac.lobi.libnakamap.components.ImageLoaderCircleView lobi:id="@id/lobi_menu_drawer_user_icon" lobi:layout_width="UNKNOWN_DATA_0x7f07004f" lobi:layout_height="UNKNOWN_DATA_0x7f07004f" lobi:layout_marginRight="@dimen/lobi_margin_high" lobi:scaleType="fitXY" lobi:lobi_borderWidth="1dp" />
+        <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="vertical" lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="wrap_content" lobi:layout_weight="1.0">
+            <TextView lobi:ellipsize="end" lobi:id="@id/lobi_menu_drawer_user_name" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:maxLines="1" lobi:layout_weight="1.0" style="@style/lobi_textview_white_large" />
+            <TextView lobi:textSize="@dimen/lobi_text_more_small" lobi:textColor="@color/lobi_pearl_gray" lobi:ellipsize="end" lobi:id="@id/lobi_menu_drawer_lobi_user_name" lobi:paddingTop="@dimen/lobi_padding_middle" lobi:layout_width="wrap_content" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:maxLines="1" lobi:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_arrow_white" />
+    </LinearLayout>
+</FrameLayout>

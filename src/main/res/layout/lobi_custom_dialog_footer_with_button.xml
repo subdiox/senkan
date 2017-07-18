@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@color/lobi_pearl_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@color/lobi_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07003e">
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_custom_dialog_footer_cancel_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/lobi_custom_dialog_button" />
+            <FrameLayout android:id="@id/lobi_custom_dialog_footer_cancel_button_split" android:background="@color/lobi_pearl_gray" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_custom_dialog_footer_negative_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/lobi_custom_dialog_button" />
+            <FrameLayout android:id="@id/lobi_custom_dialog_footer_button_split" android:background="@color/lobi_pearl_gray" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_custom_dialog_footer_positive_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/lobi_custom_dialog_button" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

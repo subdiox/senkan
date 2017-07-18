@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:id="@id/drawer_layout" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+    <view lobi:orientation="vertical" lobi:id="@id/content_frame" lobi:background="@color/lobi_white_background" lobi:layout_width="match_parent" lobi:layout_height="match_parent" class="com.kayac.lobi.libnakamap.components.MenuDrawer$ContentFrame">
+        <com.kayac.lobi.libnakamap.components.ActionBar lobi:id="@id/lobi_action_bar" lobi:lobi_content_type="0" lobi:lobi_text="@string/lobi_add_friend" style="@style/lobi_action_bar" />
+        <com.kayac.lobi.libnakamap.components.SearchBox lobi:id="@id/lobi_search_box" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_closeButton="false" lobi:lobi_searchHintText="@string/lobi_search_search_by_name" />
+        <FrameLayout lobi:layout_width="match_parent" lobi:layout_height="UNKNOWN_DATA_0x1" lobi:layout_weight="1.0">
+            <ListView lobi:id="@id/lobi_group_contacts_list" lobi:background="@color/lobi_white_background" lobi:fadingEdge="UNKNOWN_DATA_0x0" lobi:layout_width="match_parent" lobi:layout_height="match_parent" lobi:divider="@color/lobi_white_background" lobi:dividerHeight="1dp" lobi:fastScrollEnabled="true" lobi:overScrollMode="never" />
+            <LinearLayout lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_contacts_list_empty_view_layout" lobi:paddingTop="@dimen/lobi_padding_section" lobi:visibility="invisible" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+                <TextView lobi:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_no_contact_textview" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:text="@string/lobi_follow_list_no_item" lobi:drawableTop="@drawable/lobi_icn_lock_group" lobi:drawablePadding="@dimen/lobi_padding_high" style="@style/lobi_textview_pearl_gray_large_singleline" />
+            </LinearLayout>
+            <LinearLayout lobi:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_contacts_list_empty_banner_layout" lobi:paddingTop="@dimen/lobi_margin_extra_large" lobi:visibility="invisible" lobi:layout_width="match_parent" lobi:layout_height="match_parent">
+                <TextView lobi:id="@id/lobi_no_contact_banner_textview" lobi:padding="@dimen/lobi_padding_middle" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_default" />
+                <com.kayac.lobi.sdk.view.LobiBannerView lobi:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_no_contact_banner_bannerview" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" lobi:lobi_showTextOnly="true" />
+            </LinearLayout>
+        </FrameLayout>
+    </view>
+    <include lobi:id="@id/menu_drawer" layout="@layout/lobi_menu_drawer" />
+</android.support.v4.widget.DrawerLayout>

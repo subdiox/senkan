@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lobi_content_type">
+        <item>65536</item>
+        <item>1</item>
+        <item>4</item>
+        <item>0</item>
+        <item>5</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="lobi_text">
+        <item>2</item>
+    </attr>
+    <attr name="lobi_default_drawable">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_default_text">
+        <item>2</item>
+    </attr>
+    <attr name="lobi_highlight_drawable">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_textAlign">
+        <item>2</item>
+    </attr>
+    <attr name="lobi_hint">
+        <item>3</item>
+    </attr>
+    <attr name="lobi_layoutId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_custom_large_button_background">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_custom_large_button_dp_size">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_custom_large_button_image">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_custom_large_button_text">
+        <item>3</item>
+    </attr>
+    <attr name="lobi_custom_large_button_text_color">
+        <item>17</item>
+    </attr>
+    <attr name="lobi_icons">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_titles">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_frameHeight">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_frameResourceId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_frameWidth">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_loaderId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_group_wrapper_animated">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_group_wrapper_content_layout">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_group_wrapper_elements_to_display">
+        <item>4</item>
+    </attr>
+    <attr name="lobi_baseDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_baseHeight">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_baseWidth">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_bitmapConfig">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="lobi_useMaxExtendedSize">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_useMemoryCache">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_borderWidth">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_centerContentLayoutId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_centerContentVisible">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_contentBackground">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_indexBackground">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_indexVisible">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_leftContentLayoutId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_leftContentVisible">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_rightContentLayoutId">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_rightContentVisible">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_wrapContent">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_two_line_layout">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_coverImageMaxHeight">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_coverImageMinHeight">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_iconTopRunOver">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_closeButton">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_frameColor">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="lobi_searchHintText">
+        <item>3</item>
+    </attr>
+    <attr name="lobi_section_option_button">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_section_option_button_image">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_section_option_text">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_section_title">
+        <item>1</item>
+    </attr>
+    <attr name="lobi_blockedState">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_isOff">
+        <item>8</item>
+    </attr>
+    <attr name="lobi_color">
+        <item>17</item>
+    </attr>
+    <attr name="lobi_radius">
+        <item>65</item>
+    </attr>
+    <attr name="lobi_showTextOnly">
+        <item>8</item>
+    </attr>
+</resources>

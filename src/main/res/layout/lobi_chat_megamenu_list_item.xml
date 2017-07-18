@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/lobi_chat_megamenu_selector" android:paddingTop="@dimen/lobi_chat_megamenu_padding_top" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f070029" android:minHeight="@dimen/lobi_chat_megamenu_button_height">
+    <FrameLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_chat_megamenu_image" android:duplicateParentState="false" android:layout_width="UNKNOWN_DATA_0x7f07002a" android:layout_height="UNKNOWN_DATA_0x7f07002a" android:scaleType="fitCenter" />
+        <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/lobi_chat_megamenu_disable_image_selector" android:duplicateParentState="true" android:layout_width="UNKNOWN_DATA_0x7f07002a" android:layout_height="UNKNOWN_DATA_0x7f07002a" />
+    </FrameLayout>
+    <TextView android:textColor="@drawable/lobi_chat_megamenu_title_selector" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lobi_chat_megamenu_title" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2" />
+</LinearLayout>

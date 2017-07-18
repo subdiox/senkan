@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/lobi_bg_light_repeat" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lobi_padding_section" android:layout_marginBottom="@dimen/lobi_padding_middle"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_section_view_text" android:paddingLeft="@dimen/lobi_padding_high" android:paddingBottom="@dimen/lobi_padding_middle" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/lobi_textview_brown_small_singleline" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_section_view_sub_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_padding_low" android:src="@drawable/lobi_btn_section_edit" />
+            <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/lobi_section_view_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lobi_padding_high" style="@style/lobi_textview_brown_very_small_singleline" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:background="@color/lobi_brown" android:paddingTop="@dimen/lobi_padding_middle" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070070" android:layout_marginLeft="@dimen/lobi_padding_middle" android:layout_marginRight="@dimen/lobi_padding_middle" />
+</LinearLayout>

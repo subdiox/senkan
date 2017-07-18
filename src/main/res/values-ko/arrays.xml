@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lobi_chat_megamenu_label_2">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@string/lobi_shout_off</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lobi:orientation="horizontal" lobi:paddingLeft="@dimen/lobi_padding_middle" lobi:paddingTop="@dimen/lobi_padding_low" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:paddingBottom="@dimen/lobi_padding_low" lobi:layout_width="match_parent" lobi:layout_height="wrap_content"
+    <LinearLayout lobi:orientation="horizontal" lobi:background="@drawable/lobi_base_list_selector" lobi:padding="@dimen/lobi_padding_low" lobi:duplicateParentState="true" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+        <com.kayac.lobi.libnakamap.components.FramedImageLoader lobi:id="@id/lobi_group_list_icon" lobi:layout_width="UNKNOWN_DATA_0x7f070046" lobi:layout_height="UNKNOWN_DATA_0x7f070045" lobi:lobi_frameResourceId="@drawable/lobi_frame_list" />
+        <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="vertical" lobi:paddingLeft="@dimen/lobi_padding_high" lobi:paddingRight="@dimen/lobi_padding_middle" lobi:layout_width="UNKNOWN_DATA_0x1" lobi:layout_height="wrap_content" lobi:layout_weight="1.0"
+            <LinearLayout lobi:orientation="horizontal" lobi:layout_width="match_parent" lobi:layout_height="wrap_content">
+                <ImageView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_item_is_official" lobi:visibility="gone" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginRight="4dp" lobi:src="@drawable/lobi_icn_group_official" />
+                <ImageView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_item_leader" lobi:paddingRight="@dimen/lobi_margin_middle" lobi:visibility="gone" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_group_leader" />
+                <TextView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_title" lobi:layout_width="match_parent" lobi:layout_height="wrap_content" style="@style/lobi_textview_black_large_singleline" />
+            </LinearLayout>
+            <LinearLayout lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:orientation="horizontal" lobi:paddingTop="@dimen/lobi_padding_low" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content">
+                <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_user_s" />
+                <TextView lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_list_member_number" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_low" style="@style/lobi_textview_gray_small" />
+                <ImageView lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_middle" lobi:src="@drawable/lobi_icn_time_s" />
+                <TextView lobi:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_list_time" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:layout_marginLeft="@dimen/lobi_margin_low" style="@style/lobi_textview_gray_small" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout lobi:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:orientation="vertical" lobi:id="@id/lobi_group_list_visibility" lobi:visibility="gone" lobi:layout_width="UNKNOWN_DATA_0x3401" lobi:layout_height="wrap_content">
+            <ImageView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_group_list_visibility_image" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_view_private" />
+            <TextView lobi:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lobi:id="@id/lobi_group_list_visibility_text" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" style="@style/lobi_textview_gray_very_small" />
+        </LinearLayout>
+        <ImageView lobi:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" lobi:id="@id/lobi_group_alert" lobi:paddingRight="@dimen/lobi_margin_middle" lobi:visibility="gone" lobi:layout_width="wrap_content" lobi:layout_height="wrap_content" lobi:src="@drawable/lobi_icn_notice" />
+    </LinearLayout>
+</LinearLayout>
